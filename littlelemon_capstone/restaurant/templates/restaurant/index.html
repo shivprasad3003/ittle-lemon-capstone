@@ -1,0 +1,11 @@
+<!doctype html>
+<html lang="en">
+<head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>Little Lemon API</title>
+<style>
+body{font-family:system-ui,sans-serif;margin:0;background:#f7f7f0;color:#27372e}header{background:#254b38;color:white;padding:28px max(6vw,20px)}main{max-width:850px;margin:32px auto;padding:0 20px}.panel{background:white;border:1px solid #e1e4db;border-radius:14px;padding:24px;margin:18px 0}a{color:#24563c}code{background:#eef1e8;padding:3px 6px;border-radius:4px}
+</style></head>
+<body><header><h1>🍋 Little Lemon Restaurant API</h1><p>Django REST Framework · MySQL · Token Authentication</p></header>
+<main><section class="panel"><h2>Welcome</h2><p>This application exposes menu and table-booking APIs.</p><ul>
+<li><a href="/api/menu/">Menu API</a> — browse menu items</li><li><a href="/api/bookings/">Bookings API</a> — requires authentication</li>
+<li><a href="/api-auth/login/">REST framework login</a></li><li><a href="/admin/">Django admin</a></li></ul></section>
+<section class="panel"><h2>Useful endpoints</h2><p><code>POST /api/register/</code> create an account</p><p><code>POST /api-token-auth/</code> obtain an auth token</p><p><code>GET /api/users/me/</code> current user (token required)</p></section></main></body></html>
